@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Engine Failure During Takeoff Run",
+    "checklist": [
+      {"item": "Throttle", "action": "IDLE"},
+      {"item": "Brakes", "action": "APPLY"},
+      {"item": "Wing Flaps", "action": "RETRACT"},
+      {"item": "Mixture", "action": "LEAN CUT-OFF"},
+      {"item": "Ignition Switch", "action": "OFF"},
+      {"item": "Master Switch", "action": "OFF"}
+    ]
+  },
+  {
+    "title": "Engine Failure Immediately After Takeoff",
+    "checklist": [
+      {"item": "", "action": "Banner released if applicable"},
+      {"item": "Airspeed", "action": "65 KIAS (flaps up)"},
+      {"item": "", "action": "60 KIAS (flaps down)"},
+      {"item": "Mixture", "action": "IDLE CUT OFF"},
+      {"item": "Fuel Selector Valve", "action": "OFF"},
+      {"item": "Ignition Switch", "action": "OFF"},
+      {"item": "Wing Flaps", "action": "AS REQUIRED"},
+      {"item": "Master Switch", "action": "OFF"}
+    ]
+  },
+  {
+    "title": "Engine Failure During Flight",
+    "checklist": [
+      {"item": "", "action": "Banner released if applicable"},
+      {"item": "Airspeed", "action": "65 KIAS"},
+      {"item": "Carburetor Heat", "action": "ON"},
+      {"item": "Fuel Selector Valve", "action": "BOTH"},
+      {"item": "Mixture", "action": "RICH"},
+      {"item": "Ignition Switch", "action": "BOTH"},
+      {"item": "", "action": "or START if propeller stopped"},
+      {"item": "Primer", "action": "IN AND LOCKED"}
+    ]
+  },
+  {
+    "title": "Emergency Landing Without Engine Power",
+    "checklist": [
+      {"item": "Airspeed", "action": "65 KIAS (flaps up)"},
+      {"item": "", "action": "60 KIAS (flaps down)"},
+      {"item": "Mixture", "action": "IDLE CUT OFF"},
+      {"item": "Fuel Selector Valve", "action": "OFF"},
+      {"item": "Ignition Switch", "action": "OFF"},
+      {"item": "Wing Flaps", "action": "AS REQUIRED"},
+      {"item": "Master Switch", "action": "OFF"},
+      {"item": "Doors", "action": "Unlatched prior to touchdown"},
+      {"item": "Touchdown", "action": "Slightly Tail Low"},
+      {"item": "Brakes", "action": "Apply Heavily"}
+    ]
+  },
+  {
+    "title": "Spiral Recovery",
+    "checklist": [
+      {"item": "Throttle", "action": "IDLE"},
+      {"item": "Wings", "action": "LEVEL"},
+      {"item": "Pitch", "action": "Slowly nose up"}
+    ]
+  },
+  {
+    "title": "Fire During Start on Ground",
+    "checklist": [
+      {"item": "Cranking", "action": "CONTINUE"},
+      {"item": "to get a start which would suck the flames and accumulated fuel through the carburetor and into the engine", "style": "note"},
+      {"item": "IF ENGINE STARTS", "style": "section"},
+      {"item": "Power", "action": "FULL OPEN"},
+      {"item": "Engine", "action": "SHUTDOWN"},
+      {"item": "", "action": "and inspect for damage"},
+      {"item": "IF ENGINE FAILS TO START", "style": "section"},
+      {"item": "Throttle", "action": "FULL OPEN"},
+      {"item": "Mixture", "action": "IDLE CUT OFF"},
+      {"item": "Fire Extinguisher", "action": "OBTAIN"},
+      {"item": "Engine", "action": "SECURE"},
+      {"item": "Master Switch", "action": "OFF"},
+      {"item": "Ignition Switch", "action": "OFF"},
+      {"item": "Fuel Selector Valve", "action": "OFF"},
+      {"item": "Fire", "action": "EXTINGUISH"},
+      {"item": "", "action": "using fire extinguisher, wool blanket or dirt", "style": "note"},
+      {"item": "Fire Damage", "action": "INSPECT"},
+      {"item": "", "action": "Repair damage, or replace damaged components or wiring before conducting another flight", "style": "note"}    
+    ]
+  },
+  {
+    "title": "Engine Fire in Flight",
+    "checklist": [
+      {"item": "Mixture", "action": "IDLE CUT OFF"},
+      {"item": "Fuel Selector Valve", "action": "OFF"},
+      {"item": "Master Switch", "action": "OFF"},
+      {"item": "Cabin Heat and Air", "action": "OFF"},
+      {"item": "", "action": "(except overhead vents)"},
+      {"item": "Airspeed", "action": "100 KIAS"},
+      {"item": "(If fire is not extinguished, increase glide speed to find an airspeed which will provide an incombustible mixture.)", "style": "note"},
+      {"item": "Forced Landing", "action": "EXECUTE"},
+      {"item": "(as described in Emergency Landing Without Power)", "style": "note"}
+    ]
+  },
+  {
+    "title": "Overshoot",
+    "checklist": [
+      {"item": "Power", "action": "FULL"},
+      {"item": "Carb Heat", "action": "COLD"},
+      {"item": "Flaps", "action": "20°"},
+      {"item": "Airspeed", "action": "70 kts"},
+      {"item": "Flaps", "action": "0"}
+    ]
+  }
+]
